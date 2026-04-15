@@ -1,0 +1,126 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+}
+
+.container {
+    border-radius: 15px;
+}
+
+div {
+  width: 95%;
+}
+
+img {
+    display: block;
+    max-width: 10%;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #b9b9b9;
+    width: auto - 10%;
+}
+
+.textbox + nav{
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.textbox {
+    background-color: #c1e7f5;
+    background-image: url("background.jpg");
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-decoration: underline white;
+}
+
+.box {
+    margin: 20px;
+    border-radius: 25px;
+    height: 300px;
+    background-color: rgb(110, 202, 171);
+    background-position: center;
+    line-height: 100px;
+    color: white;
+}
+
+.box1 {
+    background-image: url("jewelery.jpg");
+    background-size: 535px;
+}
+
+.box2 {
+    background-image: url("piercings.jpg");
+    background-size: 500px;
+}
+
+.box3 {
+    background-image: url("marriage.jpg");
+    background-size: 550px;
+}
+
+.longbox {
+    margin: 20px;
+    border-radius: 25px;
+    height: 150px;
+    line-height: 150px;
+    color: white
+}
+
+ul {
+  list-style-type: none;
+  background-color: #4f4f4f;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 6px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.footer {
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #4f4f4f;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-image {
+  bottom: 0;
+  height: 150%;
+  width: 100%;
+  border-style:dotted;
+  border-color: #111111;
+}
+
+.footer-text {
+  font-size: 100%;
+  padding: 0.3%;
+  text-align: center;
+}
